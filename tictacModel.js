@@ -43,9 +43,9 @@ Game.prototype = {
   }
 }
 
-
-const isSubset = function(superSet,subset){
-  return subset.every(function(element){
-    return superSet.includes(element);
-  })
-}
+//
+// const isSubset = function(superSet,subset){
+//   return subset.every(function(element){
+//     return superSet.includes(element);
+//   })
+// }
