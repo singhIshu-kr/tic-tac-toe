@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style media="screen">
+      table,td{
+        border: 1px solid black;
+        width: 100px;
+        height: 50px;
+      }
+    </style>
+    <script src="players.js"></script>
+    <script src="tictacModel.js"></script>
+    <script src="tictacController.js"></script>
+    <link rel="stylesheet" href="tictactoe.css">
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1 id="gameName">Tic-Tac-Toe</h1>
+    <h1 id="whoWon">Player 1 turn</h1>
+    <table id="tic-tac-toe" onclick="executeGame()" align="center" >
+      <tr>
+        <td id="1"></td>
+        <td id="2"></td>
+        <td id="3"></td>
+      </tr>
+      <tr>
+        <td id="4"></td>
+        <td id="5"></td>
+        <td id="6"></td>
+      </tr>
+      <tr>
+        <td id="7"></td>
+        <td id="8"></td>
+        <td id="9"></td>
+      </tr>
+    </table>
+
+  </body>
+</html>
